@@ -9,7 +9,7 @@ Traffic Signs simply listens for an error code and then returns a nice view in r
 
 This package is distributed using [Composer](http://getcomposer.org). To install this, simply add `"rtablada/traffic-flow": "dev-master"` to your composer.json.
 
-Then in your `/app/config/app.php` file, add `Rtablada\TrafficSigns\TrafficSignsServiceProvider',` to your Service Providers.
+Then in your `/app/config/app.php` file, add `'Rtablada\TrafficSigns\TrafficSignsServiceProvider',` to your Service Providers.
 
 ## Using Traffic Signs
 
