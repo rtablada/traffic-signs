@@ -21,4 +21,4 @@ I am working to make Traffic Signs more flexible and stronger.
 
 Currently, Traffic Signs uses set messages for 404, 403, and other error codes. This is being refactored to use a configuration file to allow you to modify messages and accepted codes.
 
-You will also be able to create a custom view template by changing the configuration file's 'view' property.
+You can set a custom error view by changing the view property. The View is sent `$code` and `$message` variables.

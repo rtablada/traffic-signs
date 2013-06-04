@@ -22,10 +22,6 @@ App::error(function(Symfony\Component\HttpKernel\Exception\HttpException $e, $co
 			$message = 'An error was encountered';
 	}
 
-	return View::make('traffic-signs::errors', compact('code', 'message'));
+	return View::make(Config::get('traffic-signs::view'), compact('code', 'message'));
 });
 
-// App::error(function(Symfony \ Component \ HttpKernel \ Exception \ NotFoundHttpException $e, $code)
-// {
-// 	return View::make('traffic-signs::errors', array('code' => 404, 'message' => 'The requested resource was not found'));
-// });
