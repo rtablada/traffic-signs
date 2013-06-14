@@ -1,6 +1,6 @@
 {
 	"providers": [
-		"Rtablada\\TrafficSigns\\TrafficSignsServiceProvider"
+		"Rtablada\TrafficSigns\TrafficSignsServiceProvider"
 	],
 	"aliases": [
 	]
