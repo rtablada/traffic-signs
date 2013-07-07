@@ -7,13 +7,13 @@ Traffic Signs simply listens for an error code and then returns a nice view in r
 
 ## Installation
 
-This package is distributed using [Composer](http://getcomposer.org). To install this, simply add `"rtablada/traffic-flow": "dev-master"` to your composer.json.
+This package is distributed using [Composer](http://getcomposer.org). To install this, simply add `"rtablada/traffic-signs": "dev-master"` to your composer.json.
 
 Then in your `/app/config/app.php` file, add `'Rtablada\TrafficSigns\TrafficSignsServiceProvider',` to your Service Providers.
 
 ## Using Traffic Signs
 
-Traffic flow works behind the scenes and listens for HTTP Exceptions. To try this out, browse to an unset route and see a new 404 page.
+Traffic Signs works behind the scenes and listens for HTTP Exceptions. To try this out, browse to an unset route and see a new 404 page.
 
 I am working to make Traffic Signs more flexible and stronger.
 
